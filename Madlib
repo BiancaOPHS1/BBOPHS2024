@@ -1,0 +1,13 @@
+adjective1 = input("enter an adjective")
+adjective2 = input("enter another adjective")
+colour = input("enter a detailed colour e.g emerald, amethyst, ruby etc etc")
+noun = input("enter a noun")
+name = input("enter a name")
+animal = input("enter an animal")
+pet = input("enter a pet")
+verb = input("enter a verb ending in -ing form")
+food = input("enter a type of food")
+nationality = input("enter a nationality")
+
+print("Once upon a time, there was a beautiful and" , adjective1 , "princess. She had an inevitable purity and refinement that was impossible to ignore, and therefore known by everyone from all the lands, far and wide; her name was" , name , ".She was known for her vivid, illuminous appearance that made her look like a" , adjective2 , "fairy and her sparkling" , colour , "eyes that appeared to be stars in the midnight sky.")
+print( name ,"however disliked her duties as princess and often rebelled, heading into the" , adjective2 , "forest, riding her polished, pure white horse, and grasping her pet" , pet , " tightly in her hands. ")
