@@ -1,0 +1,21 @@
+email = "yourmum08@yahoo.com"
+name = "Yourmum"
+console = "nintendoswitch"
+age = 69
+price = "£69.96"
+
+
+print(email)
+print(name)
+print(console)
+print(age)
+print(price)
+
+#print is a function
+#it displays text to a screen
+
+
+#above are two variables 
+#one is called "email"
+#other is called "name"
+#both contain data
