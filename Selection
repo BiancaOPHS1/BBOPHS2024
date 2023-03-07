@@ -1,0 +1,15 @@
+#Selection
+
+Team1Points = 1
+Team2Points = 10
+
+if Team1Points <= 5:
+  print("hello")
+
+
+<          less than 
+>          greater than
+<=        less than or equal to 
+>=        greater than or equal to
+==        equal to 
+!=         not equal to
