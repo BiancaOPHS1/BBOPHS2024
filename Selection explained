@@ -1,0 +1,16 @@
+#SELECTION
+
+#Selection uses if/elif and else
+
+#Things people wrong 
+#1. Forgetting the colon:
+#2. Forgetting indentation
+#3. wrong comparison operators
+
+
+age = int(input("Enter age"))
+
+if age < 12: 
+  print("You can not watch DC movies")
+  
+print("just saying... goodbye!")  
