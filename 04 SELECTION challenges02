@@ -1,0 +1,39 @@
+number1 = int(input("Enter a number"))
+number2 = int(input("Now enter a second number"))
+
+if number1 > number2: 
+  print(number2)
+  print(number1)
+  
+else:
+  print(number1)
+  print(number2)
+  
+  
+  number = int(input("Enter a number that is under 20"))
+
+if number >= 20:
+  print("too high")
+  
+else: 
+  print("thank you")
+  
+  
+  
+  number = int(input("Enter a number that is between 10 and 20"))
+
+if number > 10 and number<20:
+  print("thank you")
+  
+else:
+  print("incorrect answer")
+  
+  
+  
+  fav_colour = str(input("Enter your favourite colour"))
+
+if fav_colour == "red" or fav_colour =="RED" or fav_colour =="red" :
+  print("I like red too!")
+  
+else:
+  print("i don't like", fav_colour, fav_colour , "is for losers")
