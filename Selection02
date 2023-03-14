@@ -1,0 +1,55 @@
+food = "lamb kebab"
+
+if food != "lamb kebab" :
+  print("I'm so hungry for sarmale")
+  print("Give me so food to eat")
+  print("I am a furry")
+
+else:
+  print("ooooo give it to me")
+  print("it's Easter soon, so my mum has to make it")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
