@@ -10,7 +10,12 @@ else:
   print(number2)
   
   
-  number = int(input("Enter a number that is under 20"))
+
+
+
+
+
+number = int(input("Enter a number that is under 20"))
 
 if number >= 20:
   print("too high")
@@ -20,7 +25,12 @@ else:
   
   
   
-  number = int(input("Enter a number that is between 10 and 20"))
+
+
+
+
+
+number = int(input("Enter a number that is between 10 and 20"))
 
 if number > 10 and number<20:
   print("thank you")
@@ -30,10 +40,94 @@ else:
   
   
   
-  fav_colour = str(input("Enter your favourite colour"))
+ 
+ 
+ 
+ 
+ 
+ 
+ fav_colour = str(input("Enter your favourite colour"))
 
 if fav_colour == "red" or fav_colour =="RED" or fav_colour =="red" :
   print("I like red too!")
   
 else:
   print("i don't like", fav_colour, fav_colour , "is for losers")
+  
+  
+  
+  
+  
+  
+  
+  number_1 = int(input("Enter a number"))
+
+if number_1 < 10:
+  print("too low")
+  
+elif number_1 > 20:
+  print("too high you crazy pizza pie")
+  
+  
+else:
+  print("correct")
+  
+  
+
+
+
+
+
+
+
+
+numb_1 = int(input("Enter the number 1, 2 or 3"))
+
+if numb_1 == 1:
+  print("thank you")
+  
+elif numb_1 ==2:
+  print("well done you are so smart")
+  
+elif numb_1 == 3:
+  print("amazing, you are so good at this")
+  
+else:
+  print("what is wrong with you")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
