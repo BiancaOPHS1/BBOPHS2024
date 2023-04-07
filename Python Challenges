@@ -1,0 +1,77 @@
+age = str(input("input your age:"))
+
+print("your age is:", age)
+
+
+
+
+
+
+
+num_1 = int(input("Enter a number:"))
+num_2 = int(input("Now enter a second number"))
+
+print((num_1 * num_2)/2)
+
+
+
+
+
+
+
+height = int(input("Enter the height that you wish your rectangle to be... without measurements"))
+width = int(input("Now enter the width (making sure it is not the same as the height, and no measurements)"))
+
+area = print(height * width)
+
+
+
+
+
+
+
+
+
+
+num_1 = int(input("enter a number"))
+num_2 = int(input("enter a second number"))
+
+result = num_1/num_2
+print(result)
+
+
+
+
+
+
+
+
+
+
+
+name = str(input("what is your name"))
+fav_subject = str(input( "what is your favorite subject" ))
+
+
+print("I like" , fav_subject , "too.")
+
+
+
+
+
+
+
+
+name = str(input("what is your name"))
+my_name = "Bianca" and "bianca"
+
+
+if name == my_name:
+  print("You're cool")
+  
+else:
+  print("nice to meet you")
+
+
+
+
