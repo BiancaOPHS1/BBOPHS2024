@@ -75,3 +75,63 @@ else:
 
 
 
+
+
+
+
+
+
+
+hours = int(input("How long on average do you spend watching TV each day:"))
+
+if hours <2:
+  print("THat shouldn't rot your brain too much")
+  
+elif hours <4:
+  print("Aren't you getting square eyes")
+  
+else:
+  print("Fresh air beats channel flicking")
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  grade = int(input("What mark did you get in your last test out of 100?"))
+
+if grade >= 75:
+  print("well done")
+  print("you have grade A")
+  
+elif grade >= 60:
+  print("continue practicing")
+  print("you have grade B")
+  
+elif grade >= 35:
+  print("try studying")
+  print("you have grade C")
+  
+else:
+  print("terrible")
+  print("you have grade D, the lowest grade")
+  
+  
+  
+  
+  
+  
+  
+ olympic_v = str(input("Name one of the Olympic Values:"))
+
+if olympic_v == "Respect" or olympic_v == "Excellence" or olympic_v == "Friendship":
+  print("that is correct")
+  
+else:
+  print("try again" )
