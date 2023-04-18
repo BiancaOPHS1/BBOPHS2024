@@ -1,0 +1,69 @@
+number = 0
+
+while number != 20:
+  number = number + 5
+  print("the number is", number)
+  
+  
+  
+  
+  number = 8
+
+while number == 8:
+  number = number + 1
+  print("the number is", number)
+  
+  
+  
+  
+  
+ answer = "N"
+ 
+while answer != "Y":
+  print("are we there yet")
+  answer = input("Please respond Y or N")
+print("Yay! We are there...")
+
+
+
+
+
+
+
+answer = "z"
+ 
+while answer == "z":
+  print("are we going to sleep")
+  answer = input("Please respond z or x (for sleep,z or awake,x)")
+  
+print("no we have to go sleep ")
+
+
+
+
+
+
+username = ""
+
+while not username:
+  username = input("Please enter username:")
+  
+  
+  
+  
+  
+  total = 0
+while total <50:
+  number = int(input("Enter a number"))
+  total = number + total
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
