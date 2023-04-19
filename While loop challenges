@@ -1,0 +1,21 @@
+  total = 0
+while total <50:
+  number = int(input("Enter a number"))
+  total = number + total
+  
+  
+  
+  
+  number = int(input("Enter a number:"))
+total = number 
+value = "y"
+
+while value == "y":
+  number2 = int(input("Enter another number:"))
+  total = number + number2
+  print(total)
+  value = input("do you want to enter another number? Answer y or n")
+
+
+
+
