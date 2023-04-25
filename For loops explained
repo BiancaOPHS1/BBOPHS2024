@@ -1,0 +1,56 @@
+for Singleletter in "Bianca Patricia bahnovei":
+  print(Singleletter)
+  
+  
+  
+  
+  
+  name = str(input("Input your name:"))
+for repeat_name in range(5):
+  print(name)
+  
+  
+  
+  
+  
+  
+  for counting in range(12):
+  print(counting)
+  
+  
+  
+  
+  
+  for holdingNumbersFromRange in range(5):
+  print("This for loop will display", holdingNumbersFromRange)
+  
+  
+  
+  
+  
+  # FYI Range now has START and STOP values
+
+for holdingNumbersFromRange in range(5, 10):
+  print("This for loop will display", holdingNumbersFromRange)
+  
+  
+  
+  
+  
+  
+  
+  
+  # range(START, STOP, STEP)
+
+for holdingNumbersFromRange in range(5, 10, 2):
+  print("This for loop will display", holdingNumbersFromRange)
+  
+  
+  
+  
+  
+  
+  animals = ["cat","dog","kangroo rat","fennec fox"]
+for next_animal in animals:
+  print("the next animal is a", next_animal)
+  
