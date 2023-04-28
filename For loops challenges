@@ -22,3 +22,12 @@ for number_name in range(number):
 
 for single_letter in name:
   print(single_letter)
+  
+  
+  
+  
+  
+  
+  
+  
+  
