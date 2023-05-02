@@ -126,6 +126,12 @@ else:
   
   
   
+
+  
+  
+  
+  
+  
   
   
  olympic_v = str(input("Name one of the Olympic Values:"))
@@ -135,3 +141,55 @@ if olympic_v == "Respect" or olympic_v == "Excellence" or olympic_v == "Friendsh
   
 else:
   print("try again" )
+  
+  
+  
+  
+  
+  
+  
+  
+  text = str(input("enter a sentence or word:"))
+print ("There are",len(text),"characters")
+
+
+
+
+
+
+
+
+
+
+
+text = str(input("enter a sentence or word:"))
+print(text.upper())
+
+
+
+
+
+
+
+
+
+
+
+user = str(input("enter a sentence"))
+word = str(input("which word in the sentence above do you wish to change"))
+new_word = str(input("what word would you like to change it to?"))
+
+if word != word:
+  print(new_word)
+
+print(user.replace(word , new_word))
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
