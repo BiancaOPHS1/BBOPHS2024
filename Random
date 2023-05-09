@@ -1,0 +1,25 @@
+import random
+
+integer = random.randint(1,1000)
+print(integer)
+
+
+
+
+
+import random
+
+colour = ["turquoise", "magenta", "aquamarine", "bubblegum pink", "indigo"]
+rand_colour = random.choice(colour)
+print(rand_colour)
+
+
+
+
+
+
+import random
+
+heads_tails = ["heads","tails"]
+coin = random.choice(heads_tails)
+
