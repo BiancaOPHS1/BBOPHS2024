@@ -23,3 +23,52 @@ import random
 heads_tails = ["heads","tails"]
 coin = random.choice(heads_tails)
 
+
+
+
+
+
+
+
+
+
+
+
+
+import random
+
+num = random.randint(1,5)
+user = int(input("pick a number between 1 and 5"))
+if num == user:
+  print("well done")
+elif user > num:
+  print("too high, try a lower number next time")
+else:
+  print("too low, try again")
+  
+user1 = int(input("pick another number between 1 and 5"))
+if num == user1:
+  print("correct")
+else:
+  print("you loose")
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  import random
+
+num = random.randint(1,10)
+correct = False
+while correct == False :
+  user = int(input("guess a number:"))
+  if user == num:
+    correct = True
+  else:
+    correct = False
