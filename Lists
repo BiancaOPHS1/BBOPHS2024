@@ -1,0 +1,23 @@
+cars = []
+
+cars.append(input("enter a car brand"))
+cars.append(input("enter another car brand"))
+cars.append(input("last car brand..."))
+
+print(cars)
+
+
+
+
+
+cars = []
+add_name = True
+
+while add_name == True:
+  car_brand = str(input("enter a car brand or press x to exit"))
+  if car_brand == "x":
+    print("exiting")
+  else:
+    cars.append(car_brand)
+    
+  print("in the list=", cars)
