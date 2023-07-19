@@ -1,0 +1,19 @@
+print("\nopening the file")
+new_file = open("numbers.txt" , "w")
+num1 = "67,"
+num2 ="8576,"
+num3 = "90,"
+num4 = "65,"
+num5 = "212,"
+new_file.write(num1)
+new_file.write(num2)
+new_file.write(num3)
+new_file.write(num4)
+new_file.write(num5)
+new_file.close()
+print("\nGo and open numbers.txt")
+
+
+
+
+
