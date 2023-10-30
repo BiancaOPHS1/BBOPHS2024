@@ -13,3 +13,31 @@ if Team1Points <= 5:
 >=        greater than or equal to
 ==        equal to 
 !=         not equal to
+
+
+
+
+
+
+age = int(input("enter age:"))
+if age >= 18:
+  print("adult")
+else:
+  print("child")
+
+
+
+
+
+
+speed = int(input("enter the speed of the car:"))
+if speed >= 70:
+  print("Issue fined")
+else:
+  print("no action")
+
+
+
+
+
+
