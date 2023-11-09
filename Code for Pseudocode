@@ -1,0 +1,51 @@
+num_1  = int(input("enter one number:"))
+num_2 = int(input("enter your second number"))
+
+addition_total  = num_1 + num_2
+times_total = num_1 * num_2 
+
+print(addition_total)
+print(times_total)
+
+
+
+
+
+
+distance = int(input("enter the distance travelled in metres")) 
+time = int(input("enter the time it took in seconds"))
+
+a_speed = distance/time
+print(a_speed , "m/s")
+
+
+
+
+
+#cost of the bill 
+
+minutes = float(input("enter the number of minutes you have used in the last month"))
+texts = float(input("enter the number of texts you have used in the last month"))
+total_cost_month  = 10.00 + (texts * 0.05) + (0.10 * minutes)
+print("£", total_cost_month)
+
+
+
+
+
+
+
+import random 
+
+
+def random_name():
+  index = random.randrange(0,5)
+  name = ["sara", "john","mary", "wynne","julie"]
+  return "sara"
+  
+
+user_name = str(input("what is your name:"))
+if user_name == random_name():
+  print("you're cool")
+else:
+  print("nice to meet you")
