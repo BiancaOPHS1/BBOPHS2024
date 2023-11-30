@@ -141,6 +141,33 @@ menu()
 
 
 
+#----------------------------
+#subprogram
+#------------------------
+
+def amount_exceeding(authorised_over_amount,actual_over_amount):
+  amount = actual_over_amount - authorised_over_amount
+  if amount < 0:
+    print("Dear Mr Clarke, Please be advised that your current overdraft is",actual_over_amount,"which is in excess of your overdraft limit of ",authorised_over_amount, "Please deposit funds of", amount, "by 4pm today to avoid excess charges and interest" )
+  else:
+    print("Dear Mr James, We are pleased to inform you that your current overdraft of", actual_over_amount,"is within your authorised limit of",authorised_over_amount)
+  return amount  
+
+
+
+
+#--------------------------------
+#main program
+#--------------------------------
+
+
+customer_title = str(input("input you title (mrs,miss, mr)"))
+last_name = str(input("enter your last name"))
+authorised_over_amount = float(input("enter you authorised overdraft amount"))
+actual_over_amount = int(input("enter your actual overdraft amount"))
+
+
+
 
 
 
